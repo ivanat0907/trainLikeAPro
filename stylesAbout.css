@@ -1,0 +1,197 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Kumbh Sans', sans-serif;
+    scroll-behavior: smooth;
+    
+}
+html, body {
+    height: 100%;
+}
+#body{
+    min-height: 100%;
+}
+.aboutUs{
+    background-color: #131313;
+    padding: 5rem 0;
+}
+.career{
+    background-color: #131313;
+    padding: 5rem 0;
+    min-height: 100%;
+    color:#efe1f1;
+}
+.careerBody{
+    min-height: 100%;
+}
+.career_container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    height: 90%;
+    text-align: center;
+}
+.img_container{
+    display: flex;
+    flex-direction: row ;
+}
+#img_career{
+    width: 250px;
+    height: 250px;
+}
+.textCareer{
+    font-size: 1rem;
+    background: #f4f3f4;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient( to right, #f4f3f5, #e9dbeb);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient( to right, #f7f7f7, #efe1f1);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background-size: 100%;
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -moz-text-fill-color: transparent;
+    margin: 0 auto;
+    padding: 20px;
+}
+.about_container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    height: 90%;
+    text-align: center;
+    padding: 30px;
+}
+#about{
+    color: #fff;
+    width: 100%;
+}
+h3{
+    font-size: 2rem;
+    background-color: #fe3b6f;
+    background-image: linear-gradient(to left, #c39bae 0%, #ed1a52 100%);
+    background-size: 100%;
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -moz-text-fill-color: transparent;
+    text-transform: uppercase;
+    margin-bottom: 32px;
+    position: center;
+ }
+
+ .textAbout{
+    font-size: 1rem;
+    background: #f4f3f4;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient( to right, #f4f3f5, #e9dbeb);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient( to right, #f7f7f7, #efe1f1);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background-size: 100%;
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -moz-text-fill-color: transparent;
+ }
+ .trainings_container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    justify-content: center;
+   /* display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;*/
+    margin: 0 auto;
+    height: 90%;
+    z-index: 1;
+    width: 100%;
+    max-width: 1300px;
+    padding: 0 50px;
+}
+ .trainings{
+    font-size: 1rem;
+    background: #f4f3f4;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient( to right, #f4f3f5, #e9dbeb);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient( to right, #f7f7f7, #efe1f1);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background-size: 100%;
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -moz-text-fill-color: transparent;
+    text-align: justify;
+ }
+ .trainings__img--container {
+    text-align: center;
+}
+
+.trainings__img--card {
+    margin: 10px;
+    height: 500px;
+    width: 500px;
+    border-radius: 4px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: #fff;
+    background-image: linear-gradient(to right, #00dbde 0%, #fc00ff 100%);
+}
+
+#card-2 {
+    background: #ff512f;
+    background: -webkit-linear-gradient(to right, #dd2476, #ff512f);
+    background: linear-gradient(to right, #dd2476, #ff512f);
+}
+/*960 i sve ispod*/
+@media screen and (max-width: 960px) {
+    .trainings_container {
+        display: flex;
+       flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        margin: 0 auto;
+        height: 90%;
+        z-index: 1;
+        width: 100%;
+        max-width: 1300px;
+        padding: 0 50px;
+    }
+    .trainings__img--card {
+        height: 325px;
+        width: 325px;
+    }
+    .img_container{
+        display: flex;
+        flex-direction: column;
+         align-items: center;
+         justify-content: center;
+         margin: 0 auto;
+         height: 90%;
+         z-index: 1;
+         width: 100%;
+         max-width: 1300px;
+         padding: 0 50px;
+    }
+    #img_career{
+        height: 250px;
+        width: 200px;
+    }
+}
+@media screen and (max-width: 480px) {
+    .main__img--card {
+        width: 290px;
+        height: 290px;
+    }
+}

@@ -32,6 +32,7 @@
 #navbar__logo {
     background-color: #ff8177;
     background-image: linear-gradient(to top, #ff0844 0%, #ffb199 100%);
+    /*background-image: linear-gradient(to bottom, #000000, #fff);*/
     background-size: 100%;
     -webkit-background-clip: text;
     -moz-background-clip: text;
@@ -96,6 +97,7 @@
     transition: all 0.3s ease;
 }
 
+/*960 i sve ispod*/
 @media screen and (max-width: 960px) {
     .navbar__container {
         display: flex;
@@ -509,6 +511,11 @@
     display: flex;
     justify-content: center;
     margin-top: 16px;
+    text-decoration: none;
+}
+.services__btn a {
+    color:#000000;
+    text-decoration: none;
 }
 
 .services__card button {
