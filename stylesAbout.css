@@ -157,7 +157,7 @@ h3{
     background: linear-gradient(to right, #dd2476, #ff512f);
 }
 /*960 i sve ispod*/
-@media screen and (max-width: 960px) {
+@media screen and (max-width: 768px) {
     .trainings_container {
         display: flex;
        flex-direction: column;
